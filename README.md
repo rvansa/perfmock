@@ -12,3 +12,6 @@ and calls mocked using [Mockrunner-JDBC](http://mockrunner.github.io/).
    and add `realClass=my.db.DataSourceImplementation` to properties, e.g. `realClass=org.h2.jdbcx.JdbcDataSource`
 4. Once you want to start mocking the calls to DB, call `PerfMockDriver.getInstance().setMocking(true);`
 
+## Example
+
+For concrete example please see `src/test/java/org/perfmock/Example.java`
